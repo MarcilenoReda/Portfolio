@@ -1,13 +1,13 @@
 "use client";
 import { Github, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
-
+import EcoImg from '../public/souqak-eg-04-23-2025_02_55_AM.png'
 const projects = [
   {
     title: "eCommerce platform",
     description: "eCommerce platform with user auth, product listing, cart, checkout, and admin dashboard for managing products and orders.",
     tech: ["Next.js", "Tailwind", "Laravel", "MySql"],
-    image: "/src/public/souqak-eg-04-23-2025_02_55_AM.png",
+    image: EcoImg,
     codeUrl: "https://github.com/yourusername/real-estate-app",
     liveUrl: "https://souqak-eg.com"
   },

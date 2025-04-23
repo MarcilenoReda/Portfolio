@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTitle from '../ui/SectionTitle';
 import { Code, Server, Shield } from 'lucide-react';
-
+import AboutImg from '../public/MarcilenoReda.jpg'
 const AboutSection: React.FC = () => {
   return (
     <section id="about" className="py-20 bg-[#111] px-4">
@@ -56,7 +56,7 @@ const AboutSection: React.FC = () => {
             <div className="relative w-full max-w-md aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-cyan-500/20">
               <div className="absolute inset-0 flex items-center justify-center">
                 <img 
-                  src="../public/MarcilenoReda.jpg" 
+                  src={AboutImg}
                   alt="Marcelino Reda"
                   className="w-full h-full object-cover"
                 />
