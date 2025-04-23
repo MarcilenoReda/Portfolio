@@ -1,47 +1,56 @@
 "use client";
 import { Github, ExternalLink } from "lucide-react";
 import { motion } from "framer-motion";
-import EcoImg from '../public/souqak-eg-04-23-2025_02_55_AM.png'
+import ProjectImg1 from "../public/souqak-eg.png";
+import ProjectImg2 from '../public/Filmlane.png'
+import ProjectImg3 from '../public/Dashboard.png'
+import ProjectImg4 from "../public/Smm.png";
 const projects = [
   {
     title: "eCommerce platform",
-    description: "eCommerce platform with user auth, product listing, cart, checkout, and admin dashboard for managing products and orders.",
+    description:
+      "eCommerce platform with user auth, product listing, cart, checkout, and admin dashboard for managing products and orders.",
     tech: ["Next.js", "Tailwind", "Laravel", "MySql"],
-    image: EcoImg,
-    codeUrl: "https://github.com/yourusername/real-estate-app",
-    liveUrl: "https://souqak-eg.com"
+    image: ProjectImg1,
+    codeUrl: "#",
+    liveUrl: "https://souqak-eg.com",
   },
   {
-    title: "Task Manager",
-    description: "Organize tasks with drag & drop, priorities, and real-time updates.",
-    tech: ["React", "Node.js", "MongoDB", "Socket.io"],
-    image: "/images/project2.png",
-    codeUrl: "https://github.com/yourusername/task-manager",
-    liveUrl: "https://taskmanager.example.com"
+    title: "Filmlane - Movie website",
+    description:
+      "Filmlane is a movie website ,featuring dynamic movie data and a modern UI.",
+    tech: ["React", "JS", "Api", "Socket.io"],
+    image: ProjectImg2,
+    codeUrl: "https://github.com/MarcilenoReda/Filmlane",
+    liveUrl: "https://marcilenoreda.github.io/Filmlane",
   },
   {
-    title: "Portfolio Website",
-    description: "A personal portfolio built with animations, smooth scroll, and modern sections.",
+    title: "Admin Dashboard",
+    description:
+      "This dashboard is fully responsive for all devices, Built using HTML, CSS, and JavaScript.",
     tech: ["Next.js", "Framer Motion", "Tailwind"],
-    image: "/images/project3.png",
-    codeUrl: "https://github.com/yourusername/portfolio",
-    liveUrl: "https://portfolio.example.com"
+    image: ProjectImg3,
+    codeUrl: "#",
+    liveUrl: "https://codewithsadee.github.io/dashboard/",
   },
   {
-    title: "E-Commerce Store",
-    description: "Full-stack store with cart, checkout, admin dashboard, and payment integration.",
+    title: "SMM Box",
+    description:
+      "Full-stack Socila Media Acc integration.",
     tech: ["Next.js", "Stripe", "Tailwind", "Prisma"],
-    image: "/images/project4.png",
-    codeUrl: "https://github.com/yourusername/ecommerce-store",
-    liveUrl: "https://ecommerce.example.com"
-  }
+    image: ProjectImg4,
+    codeUrl: "",
+    liveUrl: "",
+  },
 ];
 
 const ProjectsSection = () => {
   return (
     <section id="projects" className="bg-[#111] py-20 px-6">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-white text-center mb-12">My Projects</h2>
+        <h2 className="text-4xl font-bold text-white text-center mb-12">
+          My Projects
+        </h2>
 
         <div className="grid sm:grid-cols-2 gap-8">
           {projects.map((project, i) => (
@@ -59,8 +68,12 @@ const ProjectsSection = () => {
                   alt={project.title}
                   className="rounded-xl mb-4 border border-[#333] object-cover h-48 w-full"
                 />
-                <h3 className="text-xl font-semibold text-white mb-2">{project.title}</h3>
-                <p className="text-gray-400 text-sm mb-3">{project.description}</p>
+                <h3 className="text-xl font-semibold text-white mb-2">
+                  {project.title}
+                </h3>
+                <p className="text-gray-400 text-sm mb-3">
+                  {project.description}
+                </p>
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((t, idx) => (
                     <span
