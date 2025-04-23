@@ -56,7 +56,7 @@ const AboutSection: React.FC = () => {
             <div className="relative w-full max-w-md aspect-square rounded-2xl overflow-hidden bg-gradient-to-br from-purple-500/20 to-cyan-500/20">
               <div className="absolute inset-0 flex items-center justify-center">
                 <img 
-                  src="/src/public/MarcilenoReda.jpg" 
+                  src="../public/MarcilenoReda.jpg" 
                   alt="Marcelino Reda"
                   className="w-full h-full object-cover"
                 />
