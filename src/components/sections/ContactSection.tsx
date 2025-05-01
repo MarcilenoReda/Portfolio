@@ -73,7 +73,7 @@ const ContactSection: React.FC = () => {
                 </p>
                 
                 <div className="flex items-center text-gray-300">
-                  <Mail className="text-[#00ffcc] mr-3" size={20} />
+                  <Mail className="text-[#2563eb] mr-3" size={20} />
                   <span>marcelino.reda@example.com</span>
                 </div>
               </div>
@@ -83,13 +83,13 @@ const ContactSection: React.FC = () => {
               <h3 className="text-xl font-bold text-gray-100 mb-6">Follow Me</h3>
               
               <div className="flex flex-wrap gap-4">
-                <a href="#" className="bg-[#333] p-3 rounded-full text-gray-300 hover:text-[#00ffcc] transition-colors">
+                <a href="#" className="bg-[#333] p-3 rounded-full text-gray-300 hover:text-[#2563eb] transition-colors">
                   <Github size={24} />
                 </a>
-                <a href="#" className="bg-[#333] p-3 rounded-full text-gray-300 hover:text-[#00ffcc] transition-colors">
+                <a href="#" className="bg-[#333] p-3 rounded-full text-gray-300 hover:text-[#2563eb] transition-colors">
                   <Linkedin size={24} />
                 </a>
-                <a href="#" className="bg-[#333] p-3 rounded-full text-gray-300 hover:text-[#00ffcc] transition-colors">
+                <a href="#" className="bg-[#333] p-3 rounded-full text-gray-300 hover:text-[#2563eb] transition-colors">
                   <Twitter size={24} />
                 </a>
               </div>

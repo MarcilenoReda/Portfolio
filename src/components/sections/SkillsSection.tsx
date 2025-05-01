@@ -43,11 +43,10 @@ const SkillsSection: React.FC = () => {
       icon: <Code size={24} />,
       title: 'Frontend',
       skills: [
-        { name: 'React', experience: '3+ years' },
-        { name: 'Next.js', experience: '2+ years' },
-        { name: 'TypeScript', experience: '3+ years' },
-        { name: 'Tailwind CSS', experience: '2+ years' },
-        { name: 'Redux', experience: '3+ years' }
+        { name: 'Next.js', experience: '3+ years' },
+        { name: 'React', experience: '2+ years' },
+        { name: 'Tailwind CSS', experience: '3+ years' },
+        { name: 'Redux', experience: '1+ years' }
       ],
       color: '#00ffcc'
     },
@@ -55,11 +54,11 @@ const SkillsSection: React.FC = () => {
       icon: <Server size={24} />,
       title: 'Backend',
       skills: [
-        { name: 'Laravel', experience: '4+ years' },
-        { name: 'PHP', experience: '5+ years' },
-        { name: 'Node.js', experience: '3+ years' },
-        { name: 'Express', experience: '3+ years' },
-        { name: 'REST APIs', experience: '4+ years' }
+        { name: 'Laravel', experience: '1+ years' },
+        { name: 'PHP', experience: '3+ years' }, 
+        { name: 'Sql', experience: '2+ years' },
+        { name: 'Node.js', experience: '1+ years' },
+        { name: 'REST APIs', experience: '2+ years' }
       ],
       color: '#a855f7'
     },
@@ -67,10 +66,10 @@ const SkillsSection: React.FC = () => {
       icon: <Database size={24} />,
       title: 'Databases',
       skills: [
-        { name: 'MySQL', experience: '5+ years' },
-        { name: 'PostgreSQL', experience: '2+ years' },
-        { name: 'MongoDB', experience: '3+ years' },
-        { name: 'Redis', experience: '2+ years' },
+        { name: 'MySQL', experience: '2+ years' },
+        { name: 'PostgreSQL', experience: '1+ years' },
+        { name: 'MongoDB', experience: '2+ years' },
+        { name: 'Redis', experience: '1+ years' },
         { name: 'Firebase', experience: '2+ years' }
       ],
       color: '#00bfff'
@@ -79,11 +78,10 @@ const SkillsSection: React.FC = () => {
       icon: <Globe size={24} />,
       title: 'DevOps',
       skills: [
-        { name: 'AWS', experience: '3+ years' },
-        { name: 'Docker', experience: '3+ years' },
-        { name: 'CI/CD', experience: '3+ years' },
-        { name: 'Git', experience: '5+ years' },
-        { name: 'Kubernetes', experience: '2+ years' }
+        { name: 'AWS', experience: '1+ years' },
+        { name: 'Docker', experience: '1+ years' },
+        { name: 'CI/CD', experience: '2+ years' },
+        { name: 'Git', experience: '3+ years' },
       ],
       color: '#ff6b6b'
     },
@@ -93,8 +91,8 @@ const SkillsSection: React.FC = () => {
       skills: [
         { name: 'CEH', experience: 'Certified' },
         { name: 'CCNA', experience: 'Certified' },
-        { name: 'OAuth', experience: '3+ years' },
-        { name: 'JWT', experience: '3+ years' },
+        { name: 'OAuth', experience: '1+ years' },
+        { name: 'JWT', experience: '1+ years' },
         { name: 'Penetration Testing', experience: '2+ years' }
       ],
       color: '#ffa116'
@@ -103,10 +101,11 @@ const SkillsSection: React.FC = () => {
       icon: <Cpu size={24} />,
       title: 'Other',
       skills: [
-        { name: 'System Design', experience: '3+ years' },
-        { name: 'Performance Optimization', experience: '3+ years' },
-        { name: 'Agile', experience: '4+ years' },
-        { name: 'Scrum', experience: '4+ years' }
+        { name: 'Python', experience: '3+ years' },
+        { name: 'System Design', experience: '2+ years' },
+        { name: 'Performance Optimization', experience: '2+ years' },
+        { name: 'Agile', experience: '1+ years' },
+        { name: 'Scrum', experience: '1+ years' }
       ],
       color: '#ff85e4'
     }

@@ -12,7 +12,7 @@ interface ServiceCardProps {
 const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) => {
   return (
     <div className="bg-[#1a1a1a] rounded-xl p-6 transition-all duration-300 hover:scale-105">
-      <div className="mb-4 text-[#00ffcc]">
+      <div className="mb-4 text-[#2563eb]">
         {icon}
       </div>
       <h3 className="text-xl font-bold text-gray-100 mb-3">{title}</h3>
@@ -24,16 +24,12 @@ const ServiceCard: React.FC<ServiceCardProps> = ({ icon, title, description }) =
 const JoyCodersSection: React.FC = () => {
   return (
     <section id="joycoders" className="py-20 bg-[#111] px-4 relative overflow-hidden">
-      {/* Decorative background elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-purple-500/5 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-500/5 rounded-full blur-3xl"></div>
-      
       <div className="max-w-6xl mx-auto relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="inline-flex items-center bg-[#343434] rounded-full px-4 py-2 mb-6">
-              <span className="w-2 h-2 rounded-full bg-[#00ffcc] mr-2"></span>
-              <span className="text-sm text-gray-300">Founded in 2018</span>
+              <span className="w-2 h-2 rounded-full bg-[#2563eb] mr-2"></span>
+              <span className="text-sm text-gray-300">Founded in 2024</span>
             </div>
             
             <SectionTitle 
